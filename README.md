@@ -2,7 +2,7 @@
 
 *Semester:* F2024
 *Instructor:* B. Karchewski
-*Author:* Oyedemi Joshua Oluwadamilare, Colin Maloney, and .
+*Author:* Oyedemi Joshua Oluwadamilare.
 
 HOW TO INSTALL
 
