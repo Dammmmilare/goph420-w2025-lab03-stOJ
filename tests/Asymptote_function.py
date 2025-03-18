@@ -28,7 +28,7 @@ def dFz(Z, f):
 
    # Area thickness (m)
    H = 4000
-   return - p2/p1 * np.sqrt(H**2 * ( B1 ** -1 - B2)-Z**2) / Z**2 - p2/1 * 1/Z * (H**2 * B1 ** -2 - B2 ** -2 - Z**2)**0.5 - 2 * np.pi * f * 1/np.cos(2 * np.pi * f * Z)**2
+   return - d2/d1 * np.sqrt(H**2 * ( B1 ** -1 - B2)-Z**2) / Z**2 - d2/1 * 1/Z * (H**2 * B1 ** -2 - B2 ** -2 - Z**2)**0.5 - 2 * np.pi * f * 1/np.cos(2 * np.pi * f * Z)**2
 
 # Finding the asymptote of the function
 def asymptote_finder():
