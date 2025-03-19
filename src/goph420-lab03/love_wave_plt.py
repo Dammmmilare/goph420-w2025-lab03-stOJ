@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from root_finding import root_newton_raphson, root_secant_modified
+from root_finding_fun import root_newton_raphson
 
 # Given parameters
 ρ1, ρ2 = 1800, 2500  # Densities (kg/m³)
