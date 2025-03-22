@@ -71,7 +71,7 @@ def generate_dispersion_curve(frequencies, layer_thickness, density_top, density
 
     plt.xlabel('Frequency (Hz)')
     plt.ylabel('Phase Velocity (m/s)')
-    plt.title('Love Wave Dispersion Characteristics')
+    plt.title('Phase Velocities vs. Frequency for Modes 0, 1, 2')
     plt.grid(True)
     plt.legend()
     plt.savefig('figures/mode_phase Velocity.png')
