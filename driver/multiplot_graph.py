@@ -46,14 +46,14 @@ def love_wave_dispersion(densities, velocities, thickness, frequencies):
         ax.set_xlim(0, zeta_max)
         ax.set_ylim(-5, 5)
 
-    fig.text(0.5, 0.04, "Zeta", ha="center", fontsize=12)
+    fig.text(0.5, 0.04, "Zeta Values", ha="center", fontsize=12)
     fig.text(0.04, 0.5, "Dispersion", va="center", rotation="vertical", fontsize=12)
     plt.subplots_adjust(hspace=0.5)
     plt.savefig("figures/love_wave_dispersion.png")
     plt.show()
 
 def main():
-    densities = (1800, 2500)
+    densities = (1800, 2500) 
     velocities = (1900, 3200)
     thickness = 4000
     frequencies = [0.1, 0.5, 1, 1.5, 2]
